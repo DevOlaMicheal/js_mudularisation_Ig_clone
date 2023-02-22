@@ -1,0 +1,121 @@
+@import "./modules/bio/bio.css";
+
+body {
+    background-color: #FAFAFA;
+    margin: 0;
+}
+
+nav {
+    background-color: #FFF;
+    height: 3.3em;
+    line-height: 3.3em;
+    padding: 0 13.5em;
+    border-bottom: 0.1px solid #DBDBDB;
+}
+.logo{
+    text-decoration: none;
+}
+.logoimg{
+    vertical-align: middle;
+}
+.search{
+    background: #FAFAFA;
+    margin-left: 19em;
+    height: 2em;
+    width: 15.5em;
+    border: 1px solid #DBDBDB;
+}
+
+.search::placeholder{
+    text-align: center;
+    color: #808080;
+}
+
+.nav-links{
+    margin-left: 8em;
+}
+
+.nav-links>a {
+    margin-left: 1.5em;
+    text-decoration: none;
+}
+
+.nav-links i {
+    transform: scale(1.4);
+    color: #252525;
+    vertical-align: middle;
+}
+.container{
+    padding: 0 15%;
+}
+
+
+
+.profile-photo{
+    background-color: brown;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+ }
+
+ .profile-photo>img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+
+ }
+
+ .profile-info .name {
+    font-size: 1.7em;
+    color: #545454;
+ }
+
+ .profile-info button{
+    background-color: #0095f6;
+    color: white;
+    font-size: 1.1em;
+    width: 6em;
+    height: 2em;
+    border: unset;
+    cursor: pointer;
+ }
+
+ #addPhotoInput{
+    display: none;
+ }
+
+.add-photo{
+    transform: scale(3);
+    position: fixed;
+    bottom: 5em;
+    right: 7em;
+    cursor: pointer;
+ }
+ .gallery-nav{
+    height: 3.5em;
+ }
+
+ .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1.7em;
+    margin-bottom: 2em;
+ }
+
+
+ .item {
+    height: 17.5em;
+    width: 17.5em;
+    background-color: #000;
+ }
+
+ .item>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .item>img:hover{
+    opacity: 0.5;
+ }
